@@ -12,7 +12,7 @@ import maven dependencies
 using mybatis-generator to generate pojo\mapper\example
 
 <div align=center>
-<img src="/src/main/resources/docs/pic/idea-mybatis-generator.png" width="902" height="1352"/>
+<img src="/src/main/resources/docs/pic/idea-mybatis-generator.png" width="451" height="676"/>
 </div>
 
 you will get such files
