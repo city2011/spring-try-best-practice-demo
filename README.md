@@ -16,4 +16,6 @@ using mybatis-generator to generate pojo\mapper\example
 </div>
 
 you will get such files
-![pic2](./src/main/resources/docs/pic/mybatis-generator-files.png)
+<div align=center>
+<img src="/src/main/resources/docs/pic/mybatis-generator-files.png" width="451" height="676"/>
+</div>
