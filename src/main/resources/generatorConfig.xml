@@ -17,7 +17,7 @@
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3306/demo_db"
                         userId="root"
-                        password="your password">
+                        password="xxx">
         </jdbcConnection>
 
         <!-- 类型转换 -->

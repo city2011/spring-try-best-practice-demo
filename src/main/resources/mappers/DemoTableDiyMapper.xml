@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="demo.mapper.manual.DemoTableDiyMapper" >
+    <insert id="insertBatch" parameterType="java.util.List" >
+        insert into demo_table (demo_name,demo_value,content_text) values
+        <foreach collection="list" item="item" index="index" separator=",">
+            <trim prefix="(" suffix=")" suffixOverrides="," >
+                #{item.demoName,jdbcType=INTEGER},
+                #{item.demoValue,jdbcType=INTEGER},
+                #{item.contentText,jdbcType=LONGVARCHAR},
+            </trim>
+        </foreach>
+    </insert>
+</mapper>
