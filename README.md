@@ -9,7 +9,7 @@ Using an IDE you liked and initialize the project
 import maven dependencies
 
 ### Step 3
-change application.properties and generatorConfig.xml to your own config info.
+change application.properties and generatorConfig.xml to your own config info.  
 using mybatis-generator to generate pojo\mapper\example
 
 <div align=center>
@@ -18,5 +18,5 @@ using mybatis-generator to generate pojo\mapper\example
 
 you will get such files
 <div align=center>
-<img src="/src/main/resources/docs/pic/mybatis-generator-files.png" width="451" height="676"/>
+<img src="/src/main/resources/docs/pic/mybatis-generator-files.png" width="451" height="496"/>
 </div>
