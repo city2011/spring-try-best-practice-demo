@@ -9,6 +9,7 @@ Using an IDE you liked and initialize the project
 import maven dependencies
 
 ### Step 3
+change application.properties and generatorConfig.xml to your own config info.
 using mybatis-generator to generate pojo\mapper\example
 
 <div align=center>
