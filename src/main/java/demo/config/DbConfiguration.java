@@ -40,7 +40,7 @@ public class DbConfiguration {
         dataSource.setUsername(dbUsername);
         dataSource.setDriverClassName(dbDriver);
 
-        dataSource.setFilters("stat,wall,log4j");
+        dataSource.setFilters("stat,wall");
 
         dataSource.setMaxActive(300);
         dataSource.setInitialSize(1);
