@@ -6,7 +6,7 @@ import hcity.pojo.Vehicle;
 import hcity.pojo.Zoo;
 import hcity.util.FastJsonUtil;
 import hcity.util.GsonUtil;
-import org.apache.commons.lang.StringEscapeUtils;
+import org.apache.commons.lang3.StringEscapeUtils;
 
 public class JsonMainTest {
     public static void main(String[] args) {
