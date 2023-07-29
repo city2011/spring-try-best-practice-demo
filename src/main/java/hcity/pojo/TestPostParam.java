@@ -1,4 +1,4 @@
-package hcity.pojo;
+package pojo;
 
 import java.util.HashMap;
 import java.util.Map;
